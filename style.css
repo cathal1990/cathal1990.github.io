@@ -1,0 +1,140 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+  background-color: #470D21;
+}
+.column-container {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  min-width: 650px;
+  font-family:Arial, Helvetica, sans-serif;
+  color: #27211d
+}
+.column {
+  margin: 10px;
+  margin-top: 0px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.container {
+  width: 100%;
+  height: calc(100vh - 40px);
+}
+.container.left {
+  margin-top: 25px;
+  margin-left: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #F9E4D4;
+}
+
+.column-header {
+  font-size: 25px;
+  position: relative;
+  background-color: white;
+  top: 2px;
+  background-color: #470D21;
+  color: #F9E4D4;
+  font-size: 2rem;
+}
+/* #big_coffee {
+  user-select: none;
+  font-size: 128px;
+  cursor: pointer;
+  animation: yourAnimation 1s ease 0s 1 normal none;
+} */
+
+.big_coffee_class {
+  user-select: none;
+  font-size: 128px;
+  cursor: pointer;
+  animation: yourAnimation 1s ease 0s 1 normal none;
+}
+
+
+.counter-container {
+  font-size: 30px;
+  margin: 10px;
+  
+}
+
+.cps-container {
+  font-size: 20px;
+}
+
+#producer_container {
+  padding: 10px;
+  overflow: auto;
+  border: 2px black solid;
+  border-radius: 5px;
+  background-color: #D67D3E;
+}
+
+.producer {
+  margin-bottom: 5px;
+  padding: 10px;
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #DCD7C9;
+}
+.producer-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.producer-title {
+  font-size: 20px;
+}
+
+.producer button {
+  font-size: 15px;
+  width: 50px;
+}
+
+.game-buttons {
+  display: flex;
+}
+
+.save-game, .clear-game {
+  margin: 10px;
+  height: 30px;
+  border-radius: 8px;
+}
+
+.producer-buttons button {
+  width: auto;
+}
+
+
+
+
+@keyframes yourAnimation {
+  0.0% {
+    transform-origin: center;
+    transform: scale(1);
+  }
+  16.0% {
+    transform-origin: center;
+    transform: scale(1.7);
+  }
+  31.3% {
+    transform-origin: center;
+    transform: scale(0.8);
+  }
+  50.0% {
+    transform-origin: center;
+    transform: scale(1);
+  }
+}
